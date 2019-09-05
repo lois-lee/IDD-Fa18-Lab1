@@ -74,14 +74,19 @@ analogWrite() allows us to write a range of voltages rather than just 0 and 5V.
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
+I think the buttons change the display and the internal clock to keep time and change time. The toggling switches turn on the alarm.
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
+No, there are no sensors, just buttons.
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
+There are batteries that you add in. There are capacitors within the system.
 
 **d. Is information stored in your device? Where? How?**
+Yes, in a separate board.
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
+The point where the batteries
 
 **Describe what you did here.**
 
