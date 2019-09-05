@@ -1,12 +1,6 @@
 # IDD-Fa18-Lab1: Blink!
 
-**A lab report by John Q. Student**
-
-**Fork** this repository to get a template for Lab 1 for *Developing and Designing Interactive Devices* at Cornell Tech, Fall 2018. You should modify this `README.md` file to delete this paragraph and update below. As the lab asks:
-
-> Include your responses to the bold questions on your own fork of the lab activities. Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as `README.md` pages on your GitHub, and post a link to that on your main class hub page.
-
-We've copied the questions from the lab here. Answer them below!
+**A lab report by Lois Lee**
 
 ## Part A. Set Up a Breadboard
 
@@ -16,8 +10,10 @@ We've copied the questions from the lab here. Answer them below!
 ## Part B. Manually Blink a LED
 
 **a. What color stripes are on a 100 Ohm resistor?**
+Brown, Black, Brown, Gold
  
 **b. What do you have to do to light your LED?**
+Hook the pushbutton up to power, put the positive end of the LED to the other end of the pushbutton, attach the 100 ohm resistor from the remaining end of the LED to ground.
 
 
 ## Part C. Blink a LED using Arduino
@@ -25,12 +21,27 @@ We've copied the questions from the lab here. Answer them below!
 ### 1. Blink the on-board LED
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
+In the setup, the output LED is currently the builtin LED which can be seen in : `pinMode(LED_BUILTIN, OUTPUT);` what we want to do is change that to a pin that we've connected the LED to. For example, if pin 13, 
 
-**b. What line(s) of code do you need to change to change the rate of blinking?**
+**b. What line(s) of code do you need to change the rate of blinking?**
+
+The following code is what is in the loop. The `delay(1000)` show that the arduino is blinking every 1 second. We can simply change the 1000 value to change the rate of blinking. 
+```
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                       // wait for a second
+}
+```
 
 **c. What circuit element would you want to add to protect the board and external LED?**
+A resistor, just to prevent potential short circuiting.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
+0.013 is how long researchers at MIT say it takes for the human brain to process entire images, so when the delay is 10, or .010 seconds, it makes it hard for us to detect the rapid change.
+
+
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
