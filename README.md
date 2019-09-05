@@ -13,7 +13,7 @@
 Brown, Black, Brown, Gold
  
 **b. What do you have to do to light your LED?**
-Hook the pushbutton up to power, put the positive end of the LED to the other end of the pushbutton, attach the 100 ohm resistor from the remaining end of the LED to ground.
+Hook the pushbutton up to power, put the positive end of the LED to the other end of the pushbutton, attach the 100 ohm resistor from the remaining end of the LED to ground. Push the button to connect the LED to the power source.
 
 
 ## Part C. Blink a LED using Arduino
@@ -21,7 +21,7 @@ Hook the pushbutton up to power, put the positive end of the LED to the other en
 ### 1. Blink the on-board LED
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
-In the setup, the output LED is currently the builtin LED which can be seen in : `pinMode(LED_BUILTIN, OUTPUT);` what we want to do is change that to a pin that we've connected the LED to. For example, if pin 13, 
+In the setup, the output LED is currently the builtin LED which can be seen in : `pinMode(LED_BUILTIN, OUTPUT);` what we want to do is change that to a pin that we've connected the LED to. For example, if pin 13, `pinMode(13, OUTPUT);`
 
 **b. What line(s) of code do you need to change the rate of blinking?**
 
@@ -56,13 +56,17 @@ A resistor, just to prevent potential short circuiting.
 ## Part D. Manually fade an LED
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
+Yes, it turns all the way up to max brightness and appears to turn completely off.
 
 
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 
+Change the led variable to `int led = 11;`     
+
 **b. What is analogWrite()? How is that different than digitalWrite()?**
+analogWrite() allows us to write a range of voltages rather than just 0 and 5V.
 
 
 ## Part F. FRANKENLIGHT!!!
