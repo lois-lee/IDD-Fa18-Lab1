@@ -86,7 +86,7 @@ There are batteries that you add in. There are capacitors within the system.
 Yes, in a separate board.
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
-The point where the batteries
+The point where the batteries hooked up to the actual device.
 
 **Describe what you did here.**
 
