@@ -3,7 +3,7 @@
 **A lab report by Lois Lee**
 
 ## Part A. Set Up a Breadboard
-![A test image](IMG_2819.HEIC)
+![](1.png)
 
 
 ## Part B. Manually Blink a LED
@@ -20,7 +20,9 @@ Hook the pushbutton up to power, put the positive end of the LED to the other en
 ### 1. Blink the on-board LED
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
-In the setup, the output LED is currently the builtin LED which can be seen in : `pinMode(LED_BUILTIN, OUTPUT);` what we want to do is change that to a pin that we've connected the LED to. For example, if pin 13, `pinMode(13, OUTPUT);`
+The onboard LED does not require any changes to blink.
+
+For the external LED to blink, in the setup, the output LED is currently the builtin LED which can be seen in : `pinMode(LED_BUILTIN, OUTPUT);` what we want to do is change that to a pin that we've connected the LED to. For example, if pin 13, `pinMode(13, OUTPUT);`
 
 **b. What line(s) of code do you need to change the rate of blinking?**
 
@@ -49,20 +51,22 @@ A resistor, just to prevent potential short circuiting.
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
+[LED blinking](https://drive.google.com/file/d/1nXiCv9YYWKr9BmmJ-nfA2-L4aBHzRMnS/view?usp=sharing)
 
 
 ## Part D. Manually fade an LED
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
 Yes, it turns all the way up to max brightness and appears to turn completely off.
+[LED manual fade](https://drive.google.com/file/d/12xLlLHafHWOsWVopC1y5T6NMDKHF5ro0/view?usp=sharing)
 
 
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 
-Change the led variable to `int led = 11;`     
+Change the led variable to `int led = 11;` 
+[LED arduino fade]()
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 analogWrite() allows us to write a range of voltages rather than just 0 and 5V.
@@ -87,10 +91,16 @@ Yes, in a separate board.
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 The point where the batteries hooked up to the actual device.
 
-**Describe what you did here.**
+Here is what the inside of my alarm clock looks like:
+![](3.png)
+
+Since I couldn't remove the board without ripping apart some buttons, I simply attached the LED to the inside where the battery cartidge has power and ground, like so:
+
+![](2.png)
 
 ### 3. Build your light!
 
 **Make a video showing off your Frankenlight.**
 
-**Include any schematics or photos in your lab write-up.**
+
+
