@@ -3,8 +3,7 @@
 **A lab report by Lois Lee**
 
 ## Part A. Set Up a Breadboard
-
-[insert a photo of your breadboard setup here]
+![A test image](IMG_2819.HEIC)
 
 
 ## Part B. Manually Blink a LED
