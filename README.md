@@ -93,15 +93,13 @@ Yes, in a separate board.
 The point where the batteries hooked up to the actual device.
 
 Here is what the inside of my alarm clock looks like:
-![](3.png)
+![](4.png)
 
-Since I couldn't remove the board without ripping apart some buttons, I simply attached the LED to the inside where the battery cartidge has power and ground, like so:
-
-![](2.png)
+I simply attached the LED to the inside where the battery cartidge has power and ground, like in the following video:
 
 ### 3. Build your light!
 
-**Make a video showing off your Frankenlight.**
+[Video for Frankenlight!](https://drive.google.com/file/d/1Yx2mS5HPDpjrjWzozuDM8Im8mDvhUE36/view?usp=sharing)
 
 
 
