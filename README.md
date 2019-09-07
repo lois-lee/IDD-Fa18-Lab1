@@ -47,6 +47,8 @@ A resistor, just to prevent potential short circuiting.
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
+[My Blink Code](https://github.com/lois-lee/IDD-Fa18-Lab1/blob/master/MyBlink.ino)
+
 
 ### 2. Blink your LED
 
@@ -86,7 +88,7 @@ No, there are no sensors, just buttons.
 There are batteries that you add in. There are capacitors within the system.
 
 **d. Is information stored in your device? Where? How?**
-Yes, in a separate board.
+Yes, in a separate board with memory.
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 The point where the batteries hooked up to the actual device.
