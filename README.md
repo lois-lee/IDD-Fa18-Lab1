@@ -20,6 +20,7 @@ Hook the pushbutton up to power, put the positive end of the LED to the other en
 ### 1. Blink the on-board LED
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
+
 The onboard LED does not require any changes to blink.
 
 For the external LED to blink, in the setup, the output LED is currently the builtin LED which can be seen in : `pinMode(LED_BUILTIN, OUTPUT);` what we want to do is change that to a pin that we've connected the LED to. For example, if pin 13, `pinMode(13, OUTPUT);`
