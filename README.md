@@ -67,7 +67,6 @@ Yes, it turns all the way up to max brightness and appears to turn completely of
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 
 Change the led variable to `int led = 11;` 
-[LED arduino fade]()
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 analogWrite() allows us to write a range of voltages rather than just 0 and 5V.
