@@ -93,6 +93,7 @@ Yes, in a separate board.
 The point where the batteries hooked up to the actual device.
 
 Here is what the inside of my alarm clock looks like:
+![](3.png)
 ![](4.png)
 
 I simply attached the LED to the inside where the battery cartidge has power and ground, like in the following video:
