@@ -101,6 +101,9 @@ I simply attached the LED to the inside where the battery cartidge has power and
 
 ### 3. Build your light!
 
+Schematic:
+![](5.png)
+
 [Video for Frankenlight!](https://drive.google.com/file/d/1Yx2mS5HPDpjrjWzozuDM8Im8mDvhUE36/view?usp=sharing)
 
 
