@@ -43,6 +43,8 @@ A resistor, just to prevent potential short circuiting.
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 0.013 is how long researchers at MIT say it takes for the human brain to process entire images, so when the delay is 10, or .010 seconds, it makes it hard for us to detect the rapid change.
 
+You could have the arduino print to the console whenever it blinks to make sure it is blinking.
+
 
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
