@@ -78,6 +78,9 @@ analogWrite() allows us to write a range of voltages rather than just 0 and 5V.
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
+Schematic:
+![](5.png)
+
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 I think the buttons change the display and the internal clock to keep time and change time. The toggling switches turn on the alarm.
 
@@ -101,8 +104,7 @@ I simply attached the LED to the inside where the battery cartidge has power and
 
 ### 3. Build your light!
 
-Schematic:
-![](5.png)
+
 
 [Video for Frankenlight!](https://drive.google.com/file/d/1Yx2mS5HPDpjrjWzozuDM8Im8mDvhUE36/view?usp=sharing)
 
