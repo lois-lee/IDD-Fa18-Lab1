@@ -83,6 +83,9 @@ analogWrite() allows us to write a range of voltages rather than just 0 and 5V.
 Schematic:
 ![](5.png)
 
+System Diagram:
+![](6.png)
+
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 I think the buttons change the display and the internal clock to keep time and change time. The toggling switches turn on the alarm.
 
